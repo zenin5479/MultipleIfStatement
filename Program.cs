@@ -7,12 +7,12 @@ namespace MultipleIfStatement
       static void Main()
       {
          // 1. Независимые условия (все условия проверяются)
-         int numberOne = 10;
+         int numberOne = 1;
 
-         if (numberOne <= 0)
+         if (numberOne < 0)
          {
             // Действие, если условие1 истинно
-            Console.WriteLine("Число положительное");
+            Console.WriteLine("Число отрицательное");
          }
          if (numberOne > 0)
          {
@@ -22,7 +22,7 @@ namespace MultipleIfStatement
          if (numberOne == 5)
          {
             // Действие, если условие3 истинно
-            Console.WriteLine("Число положительное");
+            Console.WriteLine("Число равно 5");
          }
 
          int number = 10;
