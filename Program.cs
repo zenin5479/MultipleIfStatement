@@ -7,7 +7,7 @@ namespace MultipleIfStatement
       static void Main()
       {
          // 1. Независимые условия (все условия проверяются)
-         int numberOne = 1;
+         int numberOne = 5;
 
          if (numberOne < 0)
          {
@@ -24,6 +24,26 @@ namespace MultipleIfStatement
             // Действие, если условие3 истинно
             Console.WriteLine("Число равно 5");
          }
+
+         // 2. Взаимоисключающие условия (выполняется только первый истинный блок)
+         int numberTwo = 8;
+
+         if (numberTwo!= 0)
+         {
+            // Действие, если условие1 истинно
+            Console.WriteLine("Число не равно 0");
+         }
+         else if (numberTwo)
+         {
+            // Действие, если условие2 истинно (проверяется только если условие1 ложно)
+         }
+         else if (numberTwo)
+         {
+            // Действие, если условие3 истинно (проверяется только если условие1 и условие2 ложны)
+         }
+
+
+
 
          int number = 10;
 
