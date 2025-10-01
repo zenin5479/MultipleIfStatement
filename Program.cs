@@ -51,19 +51,19 @@ namespace MultipleIfStatement
          // 3.Комбинированный вариант (с добавлением else)
          int numberThree = 7;
          // условие 1
-         if (numberThree==0)
+         if (numberThree == 0)
          {
             // Действие 1
             Console.WriteLine("Число равно 0");
          }
          // условие 2
-         else if (numberThree==3)
+         else if (numberThree == 3)
          {
             // Действие 2
             Console.WriteLine("Число равно 3");
          }
          // условие 3
-         else if (numberThree==5)
+         else if (numberThree == 5)
          {
             // Действие 3
             Console.WriteLine("Число равно 5");
