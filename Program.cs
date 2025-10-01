@@ -28,18 +28,20 @@ namespace MultipleIfStatement
          // 2. Взаимоисключающие условия (выполняется только первый истинный блок)
          int numberTwo = 8;
 
-         if (numberTwo!= 0)
+         if (numberTwo == 0)
          {
             // Действие, если условие1 истинно
-            Console.WriteLine("Число не равно 0");
+            Console.WriteLine("Число равно 0");
          }
-         else if (numberTwo)
+         else if (numberTwo > 3)
          {
             // Действие, если условие2 истинно (проверяется только если условие1 ложно)
+            Console.WriteLine("Число больше 3");
          }
-         else if (numberTwo)
+         else if (numberTwo <10)
          {
             // Действие, если условие3 истинно (проверяется только если условие1 и условие2 ложны)
+            Console.WriteLine("Число  3");
          }
 
 
