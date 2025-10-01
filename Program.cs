@@ -20,7 +20,6 @@ namespace MultipleIfStatement
             // Действие, если условие 2 истинно
             Console.WriteLine("Число положительное");
          }
-
          // условие 3
          if (numberOne == 5)
          {
