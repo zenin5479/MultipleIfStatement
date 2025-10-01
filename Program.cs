@@ -48,30 +48,30 @@ namespace MultipleIfStatement
             Console.WriteLine("Число меньше 10");
          }
 
-         // 3.Комбинированный вариант(с добавлением else)
+         // 3.Комбинированный вариант (с добавлением else)
          int numberThree = 7;
          // условие 1
          if (numberThree==0)
          {
             // Действие 1
-            Console.WriteLine("Число ");
+            Console.WriteLine("Число равно 0");
          }
          // условие 2
          else if (numberThree==3)
          {
             // Действие 2
-            Console.WriteLine("Число меньше 3");
+            Console.WriteLine("Число равно 3");
          }
          // условие 3
          else if (numberThree==5)
          {
             // Действие 3
-            Console.WriteLine("Число меньше 3");
+            Console.WriteLine("Число равно 5");
          }
          else
          {
             // Действие, если все условия ложны
-            Console.WriteLine("Число меньше 3");
+            Console.WriteLine("Число не равно: 0, 3, 5");
          }
       }
    }
