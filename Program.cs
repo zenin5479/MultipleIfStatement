@@ -7,6 +7,7 @@ namespace MultipleIfStatement
       static void Main()
       {
          // 1. Независимые условия (все условия проверяются)
+         Console.WriteLine("Независимые условия (все условия проверяются)");
          int numberOne = EnterSetValue();
          // условие 1
          if (numberOne < 10)
