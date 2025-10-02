@@ -61,27 +61,31 @@ namespace MultipleIfStatement
          Console.WriteLine("Комбинированный вариант (с добавлением else)");
          int numberThree = EnterSetValue(); ;
          // условие 1
-         if (numberThree == 0)
+         if (numberThree > 100)
          {
             // Действие 1
-            Console.WriteLine("Число равно 0");
+            Console.WriteLine("Проверка условия 1: число > 100");
+            Console.WriteLine("Ложно");
          }
          // условие 2
-         else if (numberThree == 3)
+         else if (numberThree < -100)
          {
             // Действие 2
-            Console.WriteLine("Число равно 3");
+            Console.WriteLine("Проверка условия 2: число < -100");
+            Console.WriteLine("Ложно");
          }
          // условие 3
-         else if (numberThree == 5)
+         else if (numberThree == 0)
          {
             // Действие 3
-            Console.WriteLine("Число равно 5");
+            Console.WriteLine("Проверка условия 3: число == 0");
+            Console.WriteLine("Ложно");
          }
          else
          {
             // Действие, если все условия ложны
-            Console.WriteLine("Число не равно: 0, 3, 5");
+            Console.WriteLine("Проверка условия 4: число > -100, < 100, !=0");
+            Console.WriteLine("Ложно");
          }
 
          Console.ReadKey();
