@@ -20,7 +20,7 @@ namespace MultipleIfStatement
          if (numberOne < 100)
          {
             // Действие, если условие 2 истинно
-            Console.WriteLine("Проверка условия 2: число > 100");
+            Console.WriteLine("Проверка условия 2: число < 100");
             Console.WriteLine("Истинно");
          }
          // условие 3
