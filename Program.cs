@@ -10,17 +10,17 @@ namespace MultipleIfStatement
          Console.WriteLine("Независимые условия (все условия проверяются)");
          int numberOne = EnterSetValue();
          // условие 1
-         if (numberOne < 10)
+         if (numberOne > -100)
          {
             // Действие, если условие 1 истинно
-            Console.WriteLine("Проверка условия 1: число < 10");
+            Console.WriteLine("Проверка условия 1: число < -100");
             Console.WriteLine("Истинно");
          }
          // условие 2
-         if (numberOne > 0)
+         if (numberOne < 100)
          {
             // Действие, если условие 2 истинно
-            Console.WriteLine("Проверка условия 2: число > 0");
+            Console.WriteLine("Проверка условия 2: число > 100");
             Console.WriteLine("Истинно");
          }
          // условие 3
