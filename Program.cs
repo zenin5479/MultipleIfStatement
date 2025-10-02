@@ -79,19 +79,19 @@ namespace MultipleIfStatement
 
       public static int EnterSetValue()
       {
-         int v;
+         int n;
          do
          {
-            Console.WriteLine("Введите значение элемента:");
-            int.TryParse(Console.ReadLine(), out v);
-            //v = Convert.ToInt32(Console.ReadLine());
-            if (v <= -100 || v >= 100)
+            Console.WriteLine("Введите значение:");
+            int.TryParse(Console.ReadLine(), out n);
+            //n = Convert.ToInt32(Console.ReadLine());
+            if (n <= -100 || n >= 100)
             {
                Console.WriteLine("Введено не верное значение");
             }
-         } while (v <= -100 || v >= 100);
+         } while (n <= -100 || n >= 100);
 
-         return v;
+         return n;
       }
 
 
