@@ -24,10 +24,10 @@ namespace MultipleIfStatement
             Console.WriteLine("Истинно");
          }
          // условие 3
-         if (numberOne == 5)
+         if (numberOne != 0)
          {
             // Действие, если условие 3 истинно
-            Console.WriteLine("Проверка условия 3: число == 5");
+            Console.WriteLine("Проверка условия 3: число != 0");
             Console.WriteLine("Истинно");
          }
 
@@ -36,21 +36,21 @@ namespace MultipleIfStatement
 
          int numberTwo = EnterSetValue(); ;
          // условие 1
-         if (numberTwo == 0)
+         if (numberTwo < 0)
          {
             // Действие, если условие 1 истинно
-            Console.WriteLine("Действие, если условие 1 истинно: число == 0");
+            Console.WriteLine("Действие, если условие 1 истинно: число < 0");
             Console.WriteLine("Число равно 0");
          }
          // условие 2
-         else if (numberTwo < 3)
+         else if (numberTwo > 100)
          {
             // Действие, если условие 2 истинно (проверяется только если условие 1 ложно)
-            Console.WriteLine("Действие, если условие 2 истинно (проверяется только если условие 1 ложно): число < 3");
+            Console.WriteLine("Действие, если условие 2 истинно (проверяется только если условие 1 ложно): число > 100");
             Console.WriteLine("Число меньше 3");
          }
          // условие 3
-         else if (numberTwo < 10)
+         else if (numberTwo < 100)
          {
             // Действие, если условие 3 истинно (проверяется только если условие 1 и условие 2 ложны)
             Console.WriteLine("Действие, если условие 2 истинно (проверяется только если условие 1 и условие 2 ложны): число < 3");
