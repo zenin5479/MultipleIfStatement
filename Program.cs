@@ -27,7 +27,7 @@ namespace MultipleIfStatement
          if (numberOne == 5)
          {
             // Действие, если условие 3 истинно
-            Console.WriteLine("Действие, если условие 2 истинно");
+            Console.WriteLine("Действие, если условие 2 истинно: число == 5");
             Console.WriteLine("Число равно 5");
          }
 
