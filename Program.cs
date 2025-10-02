@@ -93,23 +93,7 @@ namespace MultipleIfStatement
 
          return n;
       }
-
-
-      public static int EnterElements()
-      {
-         int n;
-         do
-         {
-            Console.WriteLine("Введите элемент:");
-            int.TryParse(Console.ReadLine(), out n);
-            //n = Convert.ToInt32(Console.ReadLine());
-            if (n <= 0 || n > 20)
-            {
-               Console.WriteLine("Введено не верное значение");
-            }
-         } while (n <= 0 || n > 20);
-
-         return n;
-      }
+      
+      
    }
 }
