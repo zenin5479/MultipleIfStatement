@@ -76,5 +76,22 @@ namespace MultipleIfStatement
 
          Console.ReadKey();
       }
+
+      public static int Number1DArrayElements(string nameArray)
+      {
+         int n;
+         do
+         {
+            Console.WriteLine("Введите количество элементов массива {0}:", nameArray);
+            int.TryParse(Console.ReadLine(), out n);
+            //n = Convert.ToInt32(Console.ReadLine());
+            if (n <= 0 || n > 20)
+            {
+               Console.WriteLine("Введено не верное значение");
+            }
+         } while (n <= 0 || n > 20);
+
+         return n;
+      }
    }
 }
