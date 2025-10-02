@@ -63,14 +63,14 @@ namespace MultipleIfStatement
          // условие 1
          if (numberThree > 100)
          {
-            // Действие 1
+            // Действие, если условие 1 истинно
             Console.WriteLine("Проверка условия 1: число > 100");
             Console.WriteLine("Истинно");
          }
          // условие 2
          else if (numberThree < -100)
          {
-            // Действие 2
+            // Действие, если условие 2 истинно (проверяется только если условие 1 ложно)
             Console.WriteLine("Проверка условия 2: число < -100");
             Console.WriteLine("Истинно");
          }
