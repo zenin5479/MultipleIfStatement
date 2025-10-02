@@ -40,21 +40,21 @@ namespace MultipleIfStatement
          {
             // Действие, если условие 1 истинно
             Console.WriteLine("Проверка условия 1: число < -100");
-            Console.WriteLine("Ложно");
+            Console.WriteLine("Истинно");
          }
          // условие 2
          else if (numberTwo > 100)
          {
             // Действие, если условие 2 истинно (проверяется только если условие 1 ложно)
             Console.WriteLine("Проверка условия 2: число > -100");
-            Console.WriteLine("Ложно");
+            Console.WriteLine("Истинно");
          }
          // условие 3
          else if (numberTwo != 0)
          {
             // Действие, если условие 3 истинно (проверяется только если условие 1 и условие 2 ложны)
             Console.WriteLine("Проверка условия 3: число != 0");
-            Console.WriteLine("Ложно");
+            Console.WriteLine("Истинно");
          }
 
          // 3.Комбинированный вариант (с добавлением else)
@@ -65,27 +65,27 @@ namespace MultipleIfStatement
          {
             // Действие 1
             Console.WriteLine("Проверка условия 1: число > 100");
-            Console.WriteLine("Ложно");
+            Console.WriteLine("Истинно");
          }
          // условие 2
          else if (numberThree < -100)
          {
             // Действие 2
             Console.WriteLine("Проверка условия 2: число < -100");
-            Console.WriteLine("Ложно");
+            Console.WriteLine("Истинно");
          }
          // условие 3
          else if (numberThree == 0)
          {
             // Действие 3
             Console.WriteLine("Проверка условия 3: число == 0");
-            Console.WriteLine("Ложно");
+            Console.WriteLine("Истинно");
          }
          else
          {
             // Действие, если все условия ложны
             Console.WriteLine("Проверка условия 4: число > -100, < 100, !=0");
-            Console.WriteLine("Ложно");
+            Console.WriteLine("Истинно");
          }
 
          Console.ReadKey();
