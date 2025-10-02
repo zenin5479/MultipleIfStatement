@@ -73,6 +73,8 @@ namespace MultipleIfStatement
             // Действие, если все условия ложны
             Console.WriteLine("Число не равно: 0, 3, 5");
          }
+
+         Console.ReadKey();
       }
    }
 }
