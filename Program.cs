@@ -51,7 +51,7 @@ namespace MultipleIfStatement
          }
 
          // 3.Комбинированный вариант (с добавлением else)
-         Console.WriteLine("Взаимоисключающие условия (выполняется только первый истинный блок)");
+         Console.WriteLine("Комбинированный вариант (с добавлением else)");
          int numberThree = EnterSetValue(); ;
          // условие 1
          if (numberThree == 0)
