@@ -13,22 +13,22 @@ namespace MultipleIfStatement
          if (numberOne < 10)
          {
             // Действие, если условие 1 истинно
-            Console.WriteLine("Действие, если условие 1 истинно: число < 10");
-            Console.WriteLine("Число меньше 10");
+            Console.WriteLine("Действие, если условие 1 : число < 10");
+            Console.WriteLine("Истинно");
          }
          // условие 2
          if (numberOne > 0)
          {
             // Действие, если условие 2 истинно
             Console.WriteLine("Действие, если условие 2 истинно: число > 0");
-            Console.WriteLine("Число положительное");
+            Console.WriteLine("Истинно");
          }
          // условие 3
          if (numberOne == 5)
          {
             // Действие, если условие 3 истинно
             Console.WriteLine("Действие, если условие 3 истинно: число == 5");
-            Console.WriteLine("Число равно 5");
+            Console.WriteLine("Истинно");
          }
 
          // 2. Взаимоисключающие условия (выполняется только первый истинный блок)
