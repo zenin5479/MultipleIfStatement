@@ -36,25 +36,25 @@ namespace MultipleIfStatement
 
          int numberTwo = EnterSetValue(); ;
          // условие 1
-         if (numberTwo < 0)
+         if (numberTwo < -100)
          {
             // Действие, если условие 1 истинно
-            Console.WriteLine("Действие, если условие 1 истинно: число < 0");
-            Console.WriteLine("Число равно 0");
+            Console.WriteLine("Проверка условия 1: число < -100");
+            Console.WriteLine("Ложно");
          }
          // условие 2
          else if (numberTwo > 100)
          {
             // Действие, если условие 2 истинно (проверяется только если условие 1 ложно)
-            Console.WriteLine("Действие, если условие 2 истинно (проверяется только если условие 1 ложно): число > 100");
-            Console.WriteLine("Число меньше 3");
+            Console.WriteLine("Проверка условия 2: число > -100");
+            Console.WriteLine("Ложно");
          }
          // условие 3
-         else if (numberTwo < 100)
+         else if (numberTwo != 0)
          {
             // Действие, если условие 3 истинно (проверяется только если условие 1 и условие 2 ложны)
-            Console.WriteLine("Действие, если условие 2 истинно (проверяется только если условие 1 и условие 2 ложны): число < 3");
-            Console.WriteLine("Число меньше 10");
+            Console.WriteLine("Проверка условия 3: число != 0");
+            Console.WriteLine("Ложно");
          }
 
          // 3.Комбинированный вариант (с добавлением else)
