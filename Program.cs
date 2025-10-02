@@ -7,7 +7,7 @@ namespace MultipleIfStatement
       static void Main()
       {
          // 1. Независимые условия (все условия проверяются)
-         int numberOne = 5;
+         int numberOne = EnterSetValue();
          // условие 1
          if (numberOne < 10)
          {
@@ -28,7 +28,7 @@ namespace MultipleIfStatement
          }
 
          // 2. Взаимоисключающие условия (выполняется только первый истинный блок)
-         int numberTwo = 8;
+         int numberTwo = EnterSetValue(); ;
          // условие 1
          if (numberTwo == 0)
          {
@@ -49,7 +49,7 @@ namespace MultipleIfStatement
          }
 
          // 3.Комбинированный вариант (с добавлением else)
-         int numberThree = 7;
+         int numberThree = EnterSetValue(); ;
          // условие 1
          if (numberThree == 0)
          {
