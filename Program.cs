@@ -34,7 +34,7 @@ namespace MultipleIfStatement
          // 2. Взаимоисключающие условия (выполняется только первый истинный блок)
          Console.WriteLine("Взаимоисключающие условия (выполняется только первый истинный блок)");
 
-         int numberTwo = EnterSetValue(); ;
+         int numberTwo = EnterSetValue();
          // условие 1
          if (numberTwo < -100)
          {
@@ -59,7 +59,7 @@ namespace MultipleIfStatement
 
          // 3.Комбинированный вариант (с добавлением else)
          Console.WriteLine("Комбинированный вариант (с добавлением else)");
-         int numberThree = EnterSetValue(); ;
+         int numberThree = EnterSetValue();
          // условие 1
          if (numberThree > 100)
          {
