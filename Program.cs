@@ -8,6 +8,8 @@ namespace MultipleIfStatement
       {
          // 1. Независимые условия (все условия проверяются)
 
+
+
          int numberOne = EnterSetValue();
          Console.WriteLine("Независимые условия (все условия проверяются)");
          // условие 1
