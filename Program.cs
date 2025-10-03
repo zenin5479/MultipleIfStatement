@@ -53,7 +53,7 @@ namespace MultipleIfStatement
          else if (numberTwo != 0)
          {
             // Действие, если условие 3 истинно (проверяется только если условие 1 и условие 2 ложны)
-            Console.WriteLine("Проверка условия 3: число != 0");
+            Console.WriteLine("Проверка условия 3 (проверяется только если условие 1 и условие 2 ложны): число != 0");
             Console.WriteLine("Истинно");
          }
 
@@ -77,7 +77,7 @@ namespace MultipleIfStatement
          // условие 3
          else if (numberThree == 0)
          {
-            // Действие 3
+            // Действие, если условие 3 истинно (проверяется только если условие 1 и условие 2 ложны)
             Console.WriteLine("Проверка условия 3: число == 0");
             Console.WriteLine("Истинно");
          }
