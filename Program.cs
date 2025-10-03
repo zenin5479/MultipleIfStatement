@@ -58,7 +58,6 @@ namespace MultipleIfStatement
          }
 
          // 3.Комбинированный вариант (с добавлением else)
-
          int numberThree = EnterSetValue();
          Console.WriteLine("Комбинированный вариант (с добавлением else)");
          // условие 1
