@@ -91,6 +91,7 @@ namespace MultipleIfStatement
          Console.ReadKey();
       }
 
+      // Метод ввода данных с консоли
       public static int EnterSetValue()
       {
          int n;
