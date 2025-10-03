@@ -7,8 +7,9 @@ namespace MultipleIfStatement
       static void Main()
       {
          // 1. Независимые условия (все условия проверяются)
-         Console.WriteLine("Независимые условия (все условия проверяются)");
+
          int numberOne = EnterSetValue();
+         Console.WriteLine("Независимые условия (все условия проверяются)");
          // условие 1
          if (numberOne > -100)
          {
@@ -32,9 +33,8 @@ namespace MultipleIfStatement
          }
 
          // 2. Взаимоисключающие условия (выполняется только первый истинный блок)
-         Console.WriteLine("Взаимоисключающие условия (выполняется только первый истинный блок)");
-
          int numberTwo = EnterSetValue();
+         Console.WriteLine("Взаимоисключающие условия (выполняется только первый истинный блок)");
          // условие 1
          if (numberTwo < -100)
          {
